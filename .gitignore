@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# scim
+scim/client_id
+scim/scim-rp.jks
+scim/scim-rp-keys.json
+scim/scim-rp.pem
+scim/scim-rp.pkcs12
+scim/scim_rp_jks_pass
