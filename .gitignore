@@ -135,3 +135,10 @@ scim/scim-rp-keys.json
 scim/scim-rp.pem
 scim/scim-rp.pkcs12
 scim/scim_rp_jks_pass
+
+oxtrust_api/client_id
+oxtrust_api/api-rp.jks
+oxtrust_api/api-rp-keys.json
+oxtrust_api/api-rp.pem
+oxtrust_api/api-rp.pkcs12
+oxtrust_api/api_rp_jks_pass
