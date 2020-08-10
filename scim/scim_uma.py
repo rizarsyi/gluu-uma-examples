@@ -58,7 +58,8 @@ def jks_to_pkcs12(jks, pkcs12, alias, password):
           "-destkeypass {password}".format(jks=jks, pkcs12=pkcs12, password=password, alias=alias)
     out, err, code = exec_cmd(cmd)
     if code != 0:
-        print(out)
+        err = err or out
+        print(err)
         sys.exit(code)
 
 
@@ -69,7 +70,7 @@ def certkey_from_pkcs12(src, dest, keypass):
     cmd = "openssl pkcs12 -in {0} -nodes -out {1} -passin pass:{2}".format(src, dest, keypass)
     out, err, code = exec_cmd(cmd)
     if code != 0:
-        print(out)
+        err = err or out
         print(err)
         sys.exit(code)
 
