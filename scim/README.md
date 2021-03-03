@@ -15,15 +15,15 @@ An example on how to use SCIM API using UMA protection mode.
 
     Save them under directory where `scim_uma.py` is located.
 
-1.  Get `scim_rp_client_jks_pass` secret from Vault/K8s secret backend, save it into `scim_rp_jks_pass` file.
-1.  Get SCIM Rquesting Party client at `/identity/client/clientInventory.htm` and save it into `client_id` file.
+1.  Get `scim_rp_client_jks_pass` secret from Vault/k8s secret backend, save it into `scim_rp_jks_pass` file.
+1.  Get `scim_rp_client_id` config from Consul/k8s config backend, save it into `client_id` file.
 
 ## Usage
 
 1.  Install required libraries:
 
     ```python
-    pip3 install -r requirements.txt
+    pip3 install -r requirements.txt --no-cache-dir
     ```
 
 2.  Run the script (assuming base url is `https://demoexample.gluu.org`):
