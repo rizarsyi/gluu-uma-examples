@@ -1,1 +1,15 @@
-{}
+{
+    "test": {
+        "gh_author": "rizarsyi",
+        "gh_repo_path": "gluu-uma-examples",
+        "project_name": "test",
+        "version": "0.0.1",
+        "author": "rizarsyi",
+        "author_website": "https://github.com/rizarsyi/gluu-uma-examples",
+        "github_uri": "https://github.com/rizarsyi/gluu-uma-examples",
+        "project_description": "lorem ipsum dolor sit amet",
+        "license": "MIT",
+        "last_updated": "1677689340619",
+        "project_type": "community"
+    }
+}
