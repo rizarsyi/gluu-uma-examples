@@ -37,5 +37,18 @@
         "project_description": "ddddd",
         "version": "0.0.1",
         "type": "community"
+    },
+    "dasdasdsads": {
+        "license": "MIT",
+        "github_uri": "https://github.com/rizarsyi/gluu-uma-examples",
+        "project_name": "dasdasdsads",
+        "gh_author": "rizarsyi",
+        "author": "rizarsyi",
+        "gh_repo_path": "gluu-uma-examples",
+        "author_website": "https://github.com/rizarsyi/gluu-uma-examples",
+        "last_updated": "1681204055680",
+        "project_description": "dsadsadsd",
+        "version": "0.0.1",
+        "type": "community"
     }
 }
