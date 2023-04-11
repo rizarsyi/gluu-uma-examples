@@ -50,5 +50,18 @@
         "project_description": "dsadsadsd",
         "version": "0.0.1",
         "type": "community"
+    },
+    "abcdef": {
+        "license": "MIT",
+        "github_uri": "https://github.com/rizarsyi/gluu-uma-examples",
+        "project_name": "abcdef",
+        "gh_author": "rizarsyi",
+        "author": "rizarsyi",
+        "gh_repo_path": "gluu-uma-examples",
+        "author_website": "https://github.com/rizarsyi/gluu-uma-examples",
+        "last_updated": "1681204075071",
+        "project_description": "abcdef",
+        "version": "0.0.1",
+        "type": "community"
     }
 }
